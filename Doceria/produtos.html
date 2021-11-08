@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="produtos.css">
+</head>
+<body>
+    <nav>
+        <img src="IMG/logo2.jpg" alt="Logo" width="170" height="120">
+        <a href="index.html">Home</a>
+        
+        <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="orcamento.html">Orçamento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <a href="#" class="circle-icons fa fa-facebook"></a>
+            <a href="#" class="circle-icons fa fa-instagram"></a>
+        </ul>
+    </nav>
+    <table class="tab">
+        <thead>
+            <tr>
+                <th>CÓDIGO</th>
+                <th>DESCRIÇÃO</th>
+                <th>VALOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>01</th>
+                <th>Bolo Formigueiro</th>
+                <th>R$ 20,00</th>
+            </tr>
+            <tr>
+                <th>02</th>
+                <th>Bolo de Chocolate</th>
+                <th>R$ 27,00</th>
+            </tr>
+            <tr>
+                <th>03</th>
+                <th>Bolo Cenoura</th>
+                <th>R$ 18,00</th>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br><br>
+    <div class="linha"></div>
+    <div class="rodape2">
+        <div class="endereco">
+            <h3>Endereço</h3>
+            <h5>Avenida Onélia Zaparoli Testa, B. Água Limpa Park - Campo Grande/MS</h5>
+        </div>
+        <div class="horario">
+            <h3>Horário de Funcionamento</h3>
+            <h5>TERÇA À SÁBADO – 07h às 21h SEG – 08h às 20h • DOM – 08h às 20h</h5>
+        </div>
+    </div>
+    <footer>
+        <a href="index.html">Home</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="#" class="circle-icons fa fa-facebook"></a>
+        <a href="#" class="circle-icons fa fa-instagram"></a>
+    </footer>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<style type='text/css'>
+
+.circle-icons {
+padding: 10px; /* espaçamento */
+font-size: 18px; /* tamanho do icone */
+width: 18px; /* tamanho do fundo */
+text-align: center;
+text-decoration: none;
+margin: 5px 2px; /* espaçamento entre eles */
+border-radius: 50%;  
+background: #f0e9e9; /* cor do fundo */
+color: rgb(0, 0, 0); /*cor do icone */
+}
+
+.circle-icons:hover {
+background: #ccc; /*  cor de fundo com mouse encima */
+color: rgb(0, 0, 0);  /* cor do icone com mouse encima */
+opacity: 0.7;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+margin-bottom : .5em;
+table-layout: fixed;
+text-align: center;
+}
+
+th, td {
+padding: 10px;   
+}
+
+thead tr {
+border-bottom: solid 3px #444; /*linha que divide o cabeçalho do corpo da tabela*/
+}
+
+tbody tr:hover { /*hover = quando passa o mouse por cima ele aciona uma cor na celula*/
+background-color: #dedede; 
+}
+        
+tfoot {
+background-color: #444;
+color: #fff;
+font-weight: bold; /*negrito na fonte*/
+} 
+
+.linha {
+border-bottom: solid 1px rgb(232, 83, 98); /*linha que divide o cabeçalho do corpo da tabela*/    
+}
+
+.rodape2 {
+border-bottom: solid 0.5px rgb(232, 83, 98); /*linha que divide o cabeçalho do corpo da tabela*/
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.endereco {
+padding: 10px;
+}
+
+.horario {
+padding: 10px;
+}
+        
+footer { 
+text-align: center;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;    
+line-height: 100px;
+margin: 7px;
+background-color: rgb(232, 83, 98);    
+}
+</style>
+</body>
+</html>
